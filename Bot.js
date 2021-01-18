@@ -2,7 +2,7 @@
 const fs = require('fs');
 const Discord = require('discord.js');
 const { Menu } = require('discord.js-menu');
-const { prefix, token, version, acknowledgments, support, testToken} = require('./config.json');
+const { prefix, version, acknowledgments, support} = require('./config.json');
 const { token, testToken} = require('./tokens.json');
 
 
@@ -32,7 +32,7 @@ client.on('message', async message => {
   if (command === `ping`) {
     client.commands.get('ping').execute(message, args);
 }else if (command === `about`) {
-  //client.commands.get('about').execute(message, args);
+  client.commands.get('about').execute(message, args);
 }});
 // login to Discord with your app's token
 client.login(token);
