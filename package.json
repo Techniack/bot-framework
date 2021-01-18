@@ -1,0 +1,17 @@
+{
+  "name": "3DP-Help-Bot",
+  "version": "1.0",
+  "description": "",
+  "main": "Bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Techniack",
+  "license": "ISC",
+  "dependencies": {
+    "@pm2/io": "^4.3.5",
+    "discord.js": "^12.5.1",
+    "discord.js-menu": "^2.2.2"
+  }
+}
