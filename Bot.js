@@ -33,8 +33,6 @@ client.on('message', async message => {
     client.commands.get('ping').execute(message, args);
 }else if (command === `about`) {
   //client.commands.get('about').execute(message, args);
-}else if (command === `help`) {
-client.commands.get('help').execute(message, args);
 }});
 // login to Discord with your app's token
 client.login(token);
